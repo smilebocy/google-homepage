@@ -1,0 +1,90 @@
+
+html, body {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+#wraper {
+	min-height: 100%;
+	position: relative;
+}
+#header {
+	height: 20px;
+}
+#content {
+	text-align: center;
+	padding-bottom: 80px;
+}
+#footer {
+	position: absolute;
+	background-color: #eeeeee;
+	height: 80px;
+	width: 100%;
+	bottom: 0;
+	border :1px;
+
+}
+#menu, #rightfooter{
+	text-align: right;
+	vertical-align: center;
+}
+ #menu li, #left li, #right li {
+	display: inline;
+	font-size: 12px;
+	font-family: arial;
+	color: black;
+   
+	padding: 10px;
+}
+a:link, a:visited{
+	color: gray;
+	text-decoration: none;
+
+}
+a:hover, a:visited:hover{
+	color: black;
+	text-decoration: underline;
+}
+#logo {
+	vertical-align: center;
+	padding-top: 100px;
+}
+
+#text{
+
+	width: 550px;
+	height: 25px;
+	border-color: #eeeeee;
+	border-style: solid;
+	border-width: 1px;
+	margin: 10px auto 10px auto;
+}
+#text:hover {
+	border-color:  	#C0C0C0 ;
+}
+
+#btn {
+	margin: 0px auto 10px auto;
+}
+#btn1, #btn2 {
+	border:1px solid #D8D8D8 ;
+	background-color: #E8E8E8  ;
+	height: 30px;
+	width: auto;
+	font-weight: bold;
+	color: #404040 ;
+	font-size: 12px;
+	margin: 3px;
+}
+#btn1:hover, #btn2:hover {
+	color: black;
+
+}
+#leftfooter {
+	float: left;
+}
+#rightfooter {
+	float: right;
+} 
+
+
